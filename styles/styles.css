@@ -1,0 +1,235 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "roboto", sans-serif;
+}
+.main-file-header {
+  background: #ffffff;
+}
+.logo-text {
+  text-decoration: none;
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 31px;
+  color: #000000;
+}
+.logo-part {
+  color: #2196f3;
+}
+.nav-list,
+.nav-adress-list,
+.our-qualities-list,
+.our-tasks-list,
+.our-team-list,
+.webstudio-footer-list,
+.portfolio-footer-list,
+.portfolio-nav-adress-list,
+.portfolio-main-section-list-with-buttons,
+.portfolio-main-section-list-with-pictures {
+  list-style-type: none;
+}
+.nav-list-element-1,
+.nav-list-element-2,
+.nav-list-element-3 {
+  text-decoration: none;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  color: #212121;
+}
+.nav-list-element-1 {
+  color: #2196f3;
+}
+
+.mail-address-webstudio {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  color: #2196f3;
+  text-decoration: none;
+}
+.tel-address-webstudio-header {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  color: #757575;
+  text-decoration: none;
+}
+.section-with-button {
+  background: #2f303a;
+}
+.our-slogan {
+  font-style: normal;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 60px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+.button-to-order-servise {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 30px;
+  background: #2196f3;
+}
+.button-to-order-servise-text {
+  color: #ffffff;
+}
+.section-our-qualities {
+  background: #ffffff;
+}
+
+.our-qualities-list-caption {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+  color: #212121;
+}
+.our-qualities-list-description {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  color: #757575;
+}
+.section-our-tasks {
+  background: #ffffff;
+}
+.our-tasks-caption {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  color: #212121;
+}
+
+.our-tasks-pictures {
+  width: 370px;
+  height: 294px;
+}
+.section-our-team {
+  background: #f5f4fa;
+}
+.section-our-team-caption {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  color: #212121;
+}
+.our-team-list-pictures {
+  width: 270px;
+  height: 260px;
+}
+.our-team-names {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: #212121;
+}
+.our-team-positions {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  color: #757575;
+}
+.webstudio-footer,
+.portfolio-footer {
+  background: #2f303a;
+}
+.maps-location {
+  text-decoration: none;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  color: #ffffff;
+}
+.mail-address-info,
+.tel-address-webstudio {
+  text-decoration: none;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  color: rgba(255, 255, 255, 0.6);
+}
+.potfolio-body {
+  font-family: "roboto", sans-serif;
+}
+.portfolio-header {
+  background: #ffffff;
+}
+.portfolio-nav-list-element-1,
+.portfolio-nav-list-element-3 {
+  text-decoration: none;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  color: #212121;
+}
+.portfolio-nav-list-element-2 {
+  text-decoration: none;
+  color: #2196f3;
+}
+.portfolio-mail-address-webstudio,
+.portfolio-tel-address-webstudio {
+  text-decoration: none;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  color: #757575;
+}
+.portfolio-main-section {
+  background: #ffffff;
+}
+.portfolio-main-section-button {
+  background: #f5f4fa;
+  border-radius: 4px;
+}
+.portfolio-main-section-button-blue {
+  background: #2196f3;
+  border-radius: 4px;
+}
+.portfolio-main-section-buttons-text {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  color: #212121;
+  text-align: center;
+}
+.portfolio-main-section-pictures-description {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 36px;
+  color: #212121;
+}
+.portfolio-main-section-list-links {
+  text-decoration: none;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 30px;
+  color: #757575;
+}
