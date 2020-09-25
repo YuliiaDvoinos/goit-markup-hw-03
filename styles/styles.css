@@ -27,7 +27,7 @@ header {
   list-style-type: none;
 }
 
-.nav-list-element {
+.main-nav-list-element {
   text-decoration: none;
   font-style: normal;
   font-weight: 500;
@@ -36,7 +36,7 @@ header {
   color: #212121;
 }
 
-.nav-list-element:hover {
+.main-nav-list-element:hover {
   color: #2196f3;
 }
 
@@ -225,7 +225,7 @@ header {
 .main-file-header,
 .logo-text,
 .nav-list,
-.nav-list-element,
+.main-nav-list-element,
 .nav-adress-list {
   outline: 1px solid red;
 }
@@ -246,7 +246,7 @@ header {
   display: flex;
 }
 .logo-text,
-.nav-list-element,
+.main-nav-list-element,
 .adress-list-item {
   display: block;
   padding: 10px 0;
@@ -255,9 +255,13 @@ header {
   padding: 0;
   display: flex;
 }
-.nav-list-element {
+.main-nav-list-element,
+.adress-list-item {
   margin-right: 50px;
 }
-.nav-list-element:last-child {
+.main-nav-list-element:last-child {
+  margin-right: 0;
+}
+.adress-list-item:last-child {
   margin-right: 0;
 }
