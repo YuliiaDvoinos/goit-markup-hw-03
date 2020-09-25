@@ -1,14 +1,4 @@
-*,
-*::before,
-*::after {
-  margin: 0;
-  padding: 0;
-}
-
-body {
-  font-family: "roboto", sans-serif;
-}
-.main-file-header {
+header {
   background: #ffffff;
 }
 .logo-text {
@@ -19,6 +9,7 @@ body {
   font-size: 26px;
   line-height: 31px;
   color: #000000;
+  padding: 0;
 }
 .logo-part {
   color: #2196f3;
@@ -35,9 +26,8 @@ body {
 .portfolio-main-section-list-with-pictures {
   list-style-type: none;
 }
-.nav-list-element-1,
-.nav-list-element-2,
-.nav-list-element-3 {
+
+.nav-list-element {
   text-decoration: none;
   font-style: normal;
   font-weight: 500;
@@ -45,18 +35,12 @@ body {
   line-height: 16px;
   color: #212121;
 }
-.nav-list-element-1 {
+
+.nav-list-element:hover {
   color: #2196f3;
 }
 
-.mail-address-webstudio {
-  font-style: normal;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 16px;
-  color: #2196f3;
-  text-decoration: none;
-}
+.mail-address-webstudio,
 .tel-address-webstudio-header {
   font-style: normal;
   font-weight: 500;
@@ -64,6 +48,10 @@ body {
   line-height: 16px;
   color: #757575;
   text-decoration: none;
+}
+.tel-address-webstudio-header:hover,
+.mail-address-webstudio:hover {
+  color: #2196f3;
 }
 .section-with-button {
   background: #2f303a;
@@ -83,6 +71,12 @@ body {
   font-size: 16px;
   line-height: 30px;
   background: #2196f3;
+  border: 1px solid transparent;
+
+  border-radius: 4px;
+  min-width: 200px;
+  text-align: center;
+  padding: 10px 32px;
 }
 .button-to-order-servise-text {
   color: #ffffff;
@@ -171,12 +165,6 @@ body {
   line-height: 24px;
   color: rgba(255, 255, 255, 0.6);
 }
-.potfolio-body {
-  font-family: "roboto", sans-serif;
-}
-.portfolio-header {
-  background: #ffffff;
-}
 .portfolio-nav-list-element-1,
 .portfolio-nav-list-element-3 {
   text-decoration: none;
@@ -232,4 +220,44 @@ body {
   font-size: 16px;
   line-height: 30px;
   color: #757575;
+}
+/* to help me aligns*/
+.main-file-header,
+.logo-text,
+.nav-list,
+.nav-list-element,
+.nav-adress-list {
+  outline: 1px solid red;
+}
+.section-with-button,
+.our-slogan,
+.button-to-order-servise {
+  outline: 1px solid yellow;
+}
+
+.header-container {
+  display: flex;
+}
+.main-nav {
+  display: flex;
+}
+.nav-list {
+  padding: 0;
+  display: flex;
+}
+.logo-text,
+.nav-list-element,
+.adress-list-item {
+  display: block;
+  padding: 10px 0;
+}
+.nav-adress-list {
+  padding: 0;
+  display: flex;
+}
+.nav-list-element {
+  margin-right: 50px;
+}
+.nav-list-element:last-child {
+  margin-right: 0;
 }
