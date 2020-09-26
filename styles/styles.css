@@ -433,8 +433,7 @@ body {
 
   align-items: center;
   width: 1200px;
-  padding-right: 15px;
-  padding-left: 15px;
+  padding: 15px;
   margin-right: auto;
   margin-left: auto;
 }
@@ -483,6 +482,7 @@ body {
   justify-content: center;
 
   margin: 0;
+  margin-top: 94px;
   padding-left: 0;
 }
 .portfolio-main-section-list-items {
@@ -491,40 +491,34 @@ body {
 .portfolio-main-section-list-items:last-child {
   margin-right: 0;
 }
-.portfolio-container-with-button {
-  margin-top: 94px;
-  padding-left: 15px;
-  padding-right: 15px;
-}
-.portfolio-container-with-pictures {
-  padding-left: 15px;
-  padding-right: 15px;
-  margin-top: 34px;
-}
 .portfolio-main-section-list-with-pictures {
   margin: 0;
+  margin-top: 34px;
   padding-left: 0;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
 }
-.portfolio-main-section-list-with-pictures-items {
+
+.portfolio-main-list-items-container {
+  text-align: left;
+  border: 1px solid #eeeeee;
   margin-right: 30px;
 }
-.portfolio-main-section-list-with-pictures-items:last-child {
+.portfolio-main-list-items-container:nth-child(3n) {
   margin-right: 0;
 }
-/*outlines*/
-
-.portfolio-main-container {
-  outline: 1px solid navy;
+.portfolio-main-list-items-container:nth-child(n + 4) {
+  margin-top: 30px;
 }
-.portfolio-container-with-button {
-  outline: 1px solid darkred;
+.portfolio-main-section-pictures-description {
+  margin-top: 20px;
+  margin-bottom: 0;
+  margin-left: 24px;
 }
-.portfolio-container-with-pictures {
-  outline: 1px solid coral;
+.portfolio-main-section-list-links {
+  margin-top: 4px;
+  margin-bottom: 0;
+  margin-left: 24px;
 }
-.portfolio-main-list-items-container {
-  outline: 1px solid springgreen;
-}
+/*outlines*/ ;
