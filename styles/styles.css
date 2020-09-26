@@ -1,5 +1,6 @@
 header {
   background: #ffffff;
+  border: 1px solid #ececec;
 }
 .logo-text {
   text-decoration: none;
@@ -521,4 +522,6 @@ body {
   margin-bottom: 0;
   margin-left: 24px;
 }
-/*outlines*/ ;
+.portfolio-footer-container {
+  margin-top: 94px;
+}
