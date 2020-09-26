@@ -184,8 +184,7 @@ header {
   line-height: 24px;
   color: rgba(255, 255, 255, 0.6);
 }
-.portfolio-nav-list-element-1,
-.portfolio-nav-list-element-3 {
+.portfolio-nav-list-element {
   text-decoration: none;
   font-style: normal;
   font-weight: 500;
@@ -193,8 +192,7 @@ header {
   line-height: 16px;
   color: #212121;
 }
-.portfolio-nav-list-element-2 {
-  text-decoration: none;
+.portfolio-nav-list-element:hover {
   color: #2196f3;
 }
 .portfolio-mail-address-webstudio,
@@ -206,16 +204,27 @@ header {
   line-height: 16px;
   color: #757575;
 }
+.portfolio-mail-address-webstudio:hover {
+  color: #2196f3;
+}
+.portfolio-tel-address-webstudio:hover {
+  color: #2196f3;
+}
 .portfolio-main-section {
   background: #ffffff;
 }
 .portfolio-main-section-button {
   background: #f5f4fa;
   border-radius: 4px;
+  border: 1px solid transparent;
+
+  padding-left: 22px;
+  padding-right: 22px;
+  padding-top: 6px;
+  padding-bottom: 6px;
 }
-.portfolio-main-section-button-blue {
+.portfolio-main-section-button:hover {
   background: #2196f3;
-  border-radius: 4px;
 }
 .portfolio-main-section-buttons-text {
   font-style: normal;
@@ -240,7 +249,7 @@ header {
   line-height: 30px;
   color: #757575;
 }
-
+/*webstudio-direction*/
 .header-container {
   width: 1200px;
 
@@ -368,21 +377,12 @@ header {
 }
 .our-team-items-container {
   background: #ffffff;
-  /* material shadow v1 */
 
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
 }
-.section-our-tasks {
-  outline: 3px solid springgreen;
-}
-.our-team-container {
-  outline: 3px solid red;
-}
-.section-our-team {
-  outline: 3px solid blueviolet;
-}
+
 .our-team-items-container {
   text-align: center;
   padding-bottom: 30px;
@@ -395,4 +395,136 @@ header {
 .our-team-names {
   margin-top: 30px;
   margin-bottom: 0;
+}
+.footer-container {
+  display: flex;
+  flex-direction: column;
+
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-bottom: 60px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.footer-logo-container {
+  margin-top: 60px;
+}
+.webstudio-footer-list {
+  margin-top: 20px;
+  margin-bottom: 0;
+  padding: 0;
+}
+.webstudio-footer-list-items {
+  margin-top: 9px;
+}
+.webstudio-footer-list-items:first-child {
+  margin-top: 0;
+}
+/*portfolio items direction*/
+body {
+  margin: 0;
+}
+/*header*/
+
+.portfolio-header-container {
+  display: flex;
+  justify-content: space-between;
+
+  align-items: center;
+  width: 1200px;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.portfolio-nav,
+.portfolio-nav-adress-list {
+  display: flex;
+  align-items: center;
+}
+.portfolio-nav-list-element,
+.portfolio-mail-address-webstudio,
+.portfolio-tel-address-webstudio {
+  display: block;
+  padding: 10px 0;
+}
+.portfolio-nav-adress-list {
+  margin: 0;
+  padding: 0;
+}
+.portfolio-nav-list-element {
+  margin-right: 50px;
+}
+/*main*/
+.hidden-porfolio-caption {
+  margin: 0;
+}
+/*.portfolio-nav-list-element:last-child {
+  margin-right: 0;
+}*/
+.portfolio-address-list-element {
+  margin-right: 50px;
+}
+.portfolio-address-list-element:last-child {
+  margin-right: 0;
+}
+.portfolio-main-container {
+  width: 1200px;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.portfolio-main-section-list-with-buttons {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+
+  margin: 0;
+  padding-left: 0;
+}
+.portfolio-main-section-list-items {
+  margin-right: 8px;
+}
+.portfolio-main-section-list-items:last-child {
+  margin-right: 0;
+}
+.portfolio-container-with-button {
+  margin-top: 94px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.portfolio-container-with-pictures {
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-top: 34px;
+}
+.portfolio-main-section-list-with-pictures {
+  margin: 0;
+  padding-left: 0;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.portfolio-main-section-list-with-pictures-items {
+  margin-right: 30px;
+}
+.portfolio-main-section-list-with-pictures-items:last-child {
+  margin-right: 0;
+}
+/*outlines*/
+
+.portfolio-main-container {
+  outline: 1px solid navy;
+}
+.portfolio-container-with-button {
+  outline: 1px solid darkred;
+}
+.portfolio-container-with-pictures {
+  outline: 1px solid coral;
+}
+.portfolio-main-list-items-container {
+  outline: 1px solid springgreen;
 }
