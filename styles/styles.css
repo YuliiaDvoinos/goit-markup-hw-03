@@ -355,23 +355,24 @@ header {
   padding-right: 15px;
   margin-left: auto;
   margin-right: auto;
+  margin-top: 50px;
+  margin-bottom: 0;
   display: flex;
   align-items: center;
 }
 .our-team-list-items {
   margin-right: 30px;
-  margin-top: 50px;
 }
 .our-team-list-items:last-child {
   margin-right: 0;
 }
-.our-team-items-container
-{
-  background: #FFFFFF;
-/* material shadow v1 */
+.our-team-items-container {
+  background: #ffffff;
+  /* material shadow v1 */
 
-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
-border-radius: 0px 0px 4px 4px;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
 }
 .section-our-tasks {
   outline: 3px solid springgreen;
@@ -382,4 +383,16 @@ border-radius: 0px 0px 4px 4px;
 .section-our-team {
   outline: 3px solid blueviolet;
 }
-.our-team-items-container
+.our-team-items-container {
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+.our-team-positions {
+  margin-top: 10px;
+  margin-bottom: 0;
+}
+.our-team-names {
+  margin-top: 30px;
+  margin-bottom: 0;
+}
